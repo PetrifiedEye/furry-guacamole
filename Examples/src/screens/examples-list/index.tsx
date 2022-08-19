@@ -30,6 +30,11 @@ const ExamplesList: React.FC = () => {
         onPress={handlePress(ExamplesStack.SkiaTouchEvents)}>
         <Text style={styles.text}>Skia Touch Events</Text>
       </Pressable>
+      <Pressable
+        style={styles.card}
+        onPress={handlePress(ExamplesStack.SkiaBlocks)}>
+        <Text style={styles.text}>Skia Blocks Animation</Text>
+      </Pressable>
     </ScrollView>
   );
 };
